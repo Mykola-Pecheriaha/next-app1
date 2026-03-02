@@ -5,7 +5,7 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <a href="/photos" className={styles.link}>
-          Фото
+          Фото +++
         </a>
         <a href="/social" className={styles.link}>
           Соцсеті
