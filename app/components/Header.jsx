@@ -8,7 +8,7 @@ export default function Header() {
           Фото +++
         </a>
         <a href="/social" className={styles.link}>
-          Соцсеті
+          Соцсеті +++++
         </a>
         <a href="mailto:example@example.com" className={styles.email}>
           example@example.com
