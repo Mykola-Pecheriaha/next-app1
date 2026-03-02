@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Image from 'next/image'
+import Gallery from './components/Gallery'
 
 export default function Home() {
   return (
@@ -12,16 +13,6 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -47,6 +38,10 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+
+        <div className="w-full mt-8">
+          <Gallery />
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
@@ -97,5 +92,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  );
+  )
 }
