@@ -12,6 +12,7 @@ const IMAGES = [
 export default function Gallery() {
   return (
     <section className={styles.galleryWrap} aria-label="Фото галерея">
+      <h1>Фото галерея</h1>
       <div className={styles.gallery}>
         {IMAGES.map((src, i) => (
           <div className={styles.item} key={i}>
